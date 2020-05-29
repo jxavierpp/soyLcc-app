@@ -39,19 +39,19 @@ export default class App extends React.Component {
     for (const [index, materia] of materias.entries()) {
       let color;
       if(materia.eje === Ejes.BASICO) {
-        color = "#E8EEF7";
+        color = "#F8F8F9";
       }
       if(materia.eje === Ejes.COMUN) {
-        color = "#FFFF66";
+        color = "#F0F061";
       }
       if(materia.eje === Ejes.PROFESIONAL) {
-        color = "#FF9966";
+        color = "#FB9B63";
       }
       if(materia.eje === Ejes.ESPECIALIZANTE) {
-        color = "#99FF66";
+        color = "#98F662";
       }
       if(materia.eje === Ejes.INTEGRADOR) {
-        color = "#9966FF";
+        color = "#9962F8";
       }
       items.push(<div className="col" key={index} style={{backgroundColor: color}}><p>{materia.asignatura}</p></div>)
     }
@@ -60,7 +60,7 @@ export default class App extends React.Component {
 
   render() {
     return (
-      <Container fluid>
+      <Container>
         <div className="container1">
           { 
             this.state.data.map((materias, i) => {
@@ -74,9 +74,9 @@ export default class App extends React.Component {
             })
           }
         </div>
-        <div className="menu">
+        {/* <div className="menu">
           as
-        </div>
+        </div> */}
       </Container>
     )
   }

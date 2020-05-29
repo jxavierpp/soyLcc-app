@@ -4,17 +4,16 @@
 }
 
 .col {
-  width: 120px !important;
-  height: 60px !important;
+  width: 118px !important;
+  height: 50px !important;
   border: 1px solid;
-  font-size: 10px;
+  font-size: 9px;
   margin-top: 20px;
   justify-content: center;
   align-items: center;
   display: flex;
   text-align: center;
   border-radius: 5px;
-  box-shadow: 10px 9px 12px #CCC;
 }
 .row1 {
   margin-left: 20px !important;
@@ -22,7 +21,7 @@
 }
 p {
   margin: auto !important;
-  font-weight: 500;
+  font-weight: 900;
 }
 .menu {
   border: 1px solid;
