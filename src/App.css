@@ -1,0 +1,36 @@
+.container {
+  display: flex !important;
+  margin: 0px !important;
+}
+
+.col {
+  width: 120px !important;
+  height: 60px !important;
+  border: 1px solid;
+  font-size: 10px;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 10px 9px 12px #CCC;
+}
+.row1 {
+  margin-left: 20px !important;
+  justify-content: start;
+}
+p {
+  margin: auto !important;
+  font-weight: 500;
+}
+.menu {
+  border: 1px solid;
+   height: auto;
+   width: auto;
+}
+.container1{
+    display: flex !important;
+    margin: 0px !important;
+    width: auto;
+}
